@@ -5,7 +5,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        /* outline: 1px solid green; */
+        outline: 1px solid red;
     }
     .sobremim3, .imagen {
         width: 100%;

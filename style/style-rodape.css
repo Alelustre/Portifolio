@@ -1,0 +1,102 @@
+  .rodape {
+    background-color: var(--cor-hover);
+    color: var(--cor-portifolio);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .contat-tecnologia {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding-bottom: 30px;
+  }
+
+  .title-contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    padding: 60px 0 30px 0;
+  }
+
+  .contato-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact-form {
+    flex: 1 1 300px;
+    padding: 1.0rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--cor-fundo);
+  }
+
+  .contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.4rem;
+    border-radius: 10px;
+    border: 1px solid var(--cor-borda);
+  }
+
+  .contact-form button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--cor-botaoF);
+    color: var(--cor-contato);
+    border: 1px solid var(--cor-hover);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.title-tec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    padding: 60px 0 30px 0;
+}
+
+.tecnologia-tec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 35px;
+}
+
+.img-tec {
+    width: 10%;
+    max-width: 100%;
+}

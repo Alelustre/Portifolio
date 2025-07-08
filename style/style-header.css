@@ -1,0 +1,90 @@
+.cabecalho {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.redes-links {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 35%;
+}
+
+.redes-links img {
+    max-width: 35px;
+    width: 100%;
+    transition: trasnform 0.2s;
+}
+
+.links-navegacao {
+    /* border: 2px solid red;    */
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.home-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.home-links ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-letra);
+    font-size: 20px;
+}
+
+.slider {
+    background: var(cor--portifolio);
+    width: 50px;
+    height: 25px;
+    border: 2px solid var(--cor-hover);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bnt-slider {
+    background: var(--cor-hover);
+    border: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: all 300ms ease-in-out;
+}
+
+.slider-input:checked ~ .slider > .bnt-slider {
+    background: gray;
+    left: 23px;
+}
+ 
+.slider-input {
+    display: none;
+}
