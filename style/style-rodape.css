@@ -1,22 +1,24 @@
   .rodape {
-    background-color: var(--cor-hover);
-    color: var(--cor-portifolio);
+    background-color: var(--cor-portifolio);
+    color: var(--cor-hover);
     text-align: center;
     padding: 20px;
     width: 100%;
     bottom: 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   }
 
   .contat-tecnologia {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .contato {
     display: flex;
     flex-direction: column;
     width:50%;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
   }
 
   .title-contato {
@@ -70,33 +72,3 @@
     font-weight: bold;
     transition: background-color 0.3s ease;
   }
-
-.tecnologias {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 50%;
-}
-
-.title-tec {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 35px;
-    padding: 60px 0 30px 0;
-}
-
-.tecnologia-tec {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    gap: 35px;
-}
-
-.img-tec {
-    width: 10%;
-    max-width: 100%;
-}

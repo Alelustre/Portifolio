@@ -5,16 +5,16 @@
     margin: 20px 20px;
     text-align: center;
     box-shadow: 5px 10px 20px 13px rgba(0, 0, 0, 0.2);
+    border-radius: 100px 0 0 100px;
 }
 
 .sobremim-title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 60%;
+    /* width: 60%; */
     text-align: center;
     padding: 30px;
-
 }
 
 .sobremim-title h1 {
@@ -27,23 +27,21 @@
 }
 
 .sobremim-text {
-    padding: 30px 30px;
+    padding: 80px 80px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 60%;
     width: 100%;
     font-size: 18px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     border-radius: 100px;
     box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.2);
 }
 
 .sobremim-text h2 {
-    padding: 10px;
+    padding: 30px;
 }
 
 .sobremim-text p {
@@ -66,5 +64,56 @@
     max-width: 768px;
 }
 
+.container-tec {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
 
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    
+}
+
+.title-tec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    padding: 60px 0 30px 0;
+}
+
+.tecnologia-tec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 35px;
+}
+
+.img-tec {
+    width: 10%;
+    max-width: 100%;
+}
+
+
+.tec-estudos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.gif-estudos {
+    width: 40%;
+    max-width: 100%;
+    opacity: 0.8;
+}
 
