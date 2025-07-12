@@ -26,8 +26,7 @@
     margin: 20px;
     padding: 0;
     outline: 2px solid gray;
-    border: 2px solid gra;
-    /* background-color: blanchedalmond; */
+    border: 2px solid gray;
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -83,9 +82,7 @@
 
 .item_texto {
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    /* align-items: center; */
     margin: 10px;
     text-align: center;
 
