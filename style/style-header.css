@@ -57,16 +57,17 @@
     font-family: var(--fonte-teste);
 }
 
-.home-links:hover {
-     text-decoration: underline;
-     cursor: pointer;
-}
 
 .cabecalho-menu-link {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor-letra);
     font-size: 20px;
+}
+
+.cabecalho-menu-link:hover {
+     text-decoration: underline;
+     cursor: pointer;
 }
 
 .slider {
