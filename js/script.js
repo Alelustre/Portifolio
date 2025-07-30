@@ -27,3 +27,7 @@ document.querySelector(".contact-form").addEventListener("submit", function() {
   }
 });
 
+function toggleMenu() {
+    const menu = document.querySelector('.cabecalho__menu');
+    menu.classList.toggle('active');
+  }

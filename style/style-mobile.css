@@ -1,5 +1,68 @@
 
 @media screen and (max-width: 768px) {
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        position: relative;
+    }
+
+  /* .cabecalho__menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #121212;
+        text-align: center;
+        padding: 1rem 0;
+        z-index: 999;
+    }
+
+  .cabecalho__menu.active {
+        display: flex;
+    } */
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 40px;
+    }
+
+    .hamburguer {
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+    }
+
+    .rodape__icones {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .home-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+    }
+
+    .redes-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .links-navegacao {
+        padding: 0.5em;
+        width: 100%;
+    }
+
     .projeto .item {
         width: calc((70% / 1) - 10px);
         display: flex;

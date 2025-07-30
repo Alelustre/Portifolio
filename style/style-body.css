@@ -6,6 +6,7 @@
     text-align: center;
     box-shadow: 5px 10px 20px 13px rgba(0, 0, 0, 0.2);
     border-radius: 100px 0 0 100px;
+    font-family: var(--fonte-teste);
 }
 
 .sobremim-title {
@@ -15,6 +16,7 @@
     /* width: 60%; */
     text-align: center;
     padding: 30px;
+
 }
 
 .sobremim-title h1 {
@@ -42,6 +44,7 @@
 
 .sobremim-text h2 {
     padding: 30px;
+    font-family: var(--fonte);
 }
 
 .sobremim-text p {
@@ -50,7 +53,7 @@
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-
+    font-family: var(--fonte);
 }
 
 .sobremim-img {

@@ -2,8 +2,7 @@
 @import url(style-body.css);
 @import url(style-projetos.css);
 @import url(style-rodape.css);
-
-
+@import url(style-mobile.css);
 
 
 :root {
@@ -14,8 +13,10 @@
     --cor-fundo:#e6e6e6;
     --cor-contato:#ebeaea;
     --cor-botaoF: #FE7743;
+    --cor-botao-hover: #DC3C22;
     --fonte: "Funnel Sans", sans-serif;
     --fonte-link: "Akaya Kanadaka", system-ui;
+    --fonte-teste: "Playwrite AU QLD", cursive;
 }
 
 * {

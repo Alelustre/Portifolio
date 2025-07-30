@@ -6,6 +6,8 @@
     width: 100%;
     bottom: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    font-family: var(--fonte);
+    font-size: 14px;
   }
 
   .contat-tecnologia {
@@ -28,6 +30,8 @@
     text-align: center;
     font-size: 35px;
     padding: 60px 0 30px 0;
+    font-family: var(--fonte-teste);
+    text-decoration: underline;
   }
 
   .contato-wrapper {
@@ -51,6 +55,7 @@
     display: block;
     margin-top: 1rem;
     font-weight: bold;
+    font-family: var(--fonte);
   }
 
   .contact-form input, .contact-form textarea {
@@ -59,6 +64,7 @@
     margin-top: 0.4rem;
     border-radius: 10px;
     border: 1px solid var(--cor-borda);
+    font-family: var(--fonte);
   }
 
   .contact-form button {
@@ -69,7 +75,13 @@
     border: 1px solid var(--cor-hover);
     border-radius: 10px;
     cursor: pointer;
+    font-family: var(--fonte);
     font-weight: bold;
+    font-size: 18px;
     transition: background-color 0.3s ease;
-    
+  }
+
+  .contact-form button:hover {
+    background-color: var(--cor-botao-hover);
+
   }
