@@ -27,7 +27,46 @@ document.querySelector(".contact-form").addEventListener("submit", function() {
   }
 });
 
-function toggleMenu() {
-    const menu = document.querySelector('.cabecalho__menu');
+document.addEventListener('DOMContentLoaded',() => {
+    const toggle = document.querySelector('.slider-input');
+
+    toggle.addEventListener('change', () => {
+        // console.log('dark mode ativado'); // TESTE
+        document.body.classList.toggle('dark-mode');
+    });
+});
+
+
+    function toggleMenu() {
+    const menu = document.querySelector('.home-links');
     menu.classList.toggle('active');
-  }
+  };
+
+  document.querySelectorAll('.home-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.home-links').classList.remove('active');
+  });
+});
+
+    const toggle = document.querySelector('.slider-input');
+
+    // carregar tema salvo
+    window.onload = () => {
+        const thema = localStorage.getItem('theme');
+
+        if (theme === 'dark') {
+            document.body.classList.add('.dark-mode');
+            toggle.checked = true;
+        }
+    };
+
+    toggle.addEventListener('change', () => {
+        document.bory.classList.toggle('.dark-mode');
+
+        if (document.body.classList.contains('.dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+        } else{
+            localStorage.setItem('theme', 'light');
+        }
+
+});

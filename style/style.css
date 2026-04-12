@@ -7,10 +7,9 @@
 
 :root {
     --cor-portifolio: #e6e6e6;
+    --cor-dark-mode: #333;
     --cor-letra:#100c09;
-    --cor-hover:#100c09;
     --cor-borda: #9e9c9c;
-    --cor-fundo:#e6e6e6;
     --cor-contato:#ebeaea;
     --cor-botaoF: #FE7743;
     --cor-botao-hover: #DC3C22;
@@ -34,7 +33,31 @@ img {
 body {
     font-size: 16px;
     background-color: var(--cor-portifolio);
+    color: var(--cor-letra);
     width: 100%;
     box-sizing: border-box;
+    transition: 0.6s;
+    line-height: 1.6;
 }
 
+.dark-mode {
+    --cor-portifolio: #333;
+    --cor-letra: #e6e6e6;
+    --cor-borda: #1e1e1e;
+    --cor-contato: #1e1e1e;
+    --cor-botaoF: #fe7743;
+    --cor-botao-hover: #555;
+}
+
+.bnt-slider {
+    background-color: var(--cor-dark-mode);
+    color: var(--cor-portifolio);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

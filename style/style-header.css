@@ -11,9 +11,8 @@
     /* border: 2px solid green; */
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 55%;
     justify-content: flex-end;
-    
 }
 
 .hamburguer {
@@ -23,7 +22,6 @@
 .redes-links {
     /* border: 2px solid yellow; */
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
     width: 35%;
@@ -46,7 +44,6 @@
     gap: 10px;
     text-decoration: none;
     text-align: center;
-
 }
 
 .home-links {
@@ -56,7 +53,6 @@
     list-style-type: none;
     font-family: var(--fonte-teste);
 }
-
 
 .cabecalho-menu-link {
     text-decoration: none;
@@ -71,17 +67,16 @@
 }
 
 .slider {
-    background: var(cor--portifolio);
     width: 50px;
     height: 25px;
-    border: 2px solid var(--cor-hover);
+    border: 2px solid var(--cor-letra);
     border-radius: 20px;
     cursor: pointer;
     position: relative;
-}
+    }
 
 .bnt-slider {
-    background: var(--cor-hover);
+    /* background: var(--cor-botaoF); */
     border: none;
     width: 18px;
     height: 18px;
@@ -94,11 +89,11 @@
 }
 
 .slider-input:checked ~ .slider > .bnt-slider {
-    background: gray;
+    background: var(--cor-botaoF);
+    border: 2px solid var(--cor-botaoF);
     left: 23px;
 }
  
 .slider-input {
     display: none;
-    
 }

@@ -1,6 +1,6 @@
   .rodape {
     background-color: var(--cor-portifolio);
-    color: var(--cor-hover);
+    color: var(--cor-letra);
     text-align: center;
     padding: 20px;
     width: 100%;
@@ -9,7 +9,7 @@
     font-family: var(--fonte);
     font-size: 14px;
   }
-
+ 
   .contat-tecnologia {
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@
     padding: 1.0rem;
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-portifolio);
   }
 
   .contact-form label {
